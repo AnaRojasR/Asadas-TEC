@@ -284,21 +284,21 @@
               </div>
             </div>
             <div class="form-group">
-              <label class="col-md-4 control-label" for="textinput">Digité la historia:</label>  
-              <div class="col-md-4">
-                  <textarea name="historia" class="form-control"><?php echo $datos['historia']; ?></textarea>
-              </div>
-            </div>    
+                <label class="col-md-4 control-label" for="textinput">Digité la historia:</label>  
+                <div class="col-md-8">
+                  <textarea name="historia" class="form-control" rows="8"><?php echo $datos['historia']; ?></textarea>
+                </div>
+            </div>
             <div class="form-group">
-              <label class="col-md-4 control-label" for="textinput">Digité la misión:</label>  
-              <div class="col-md-4">
+              <label class="col-md-4 control-label" for="textinput">Digite la misión:</label>          
+            <div class="col-md-8">
                   <textarea name="mision" class="form-control"><?php echo $datos['mision']; ?></textarea>
               </div>
             </div>               
             <div class="form-group">
               <label class="col-md-4 control-label" for="textinput">Digité la visión:</label>  
-              <div class="col-md-4">
-                  <textarea name="vision" class="form-control"><?php echo $datos['vision']; ?></textarea>
+              <div class="col-md-8">
+                  <textarea name="vision" class="form-control" rows="3"><?php echo $datos['vision']; ?></textarea>
                   
               </div>
             </div>  
